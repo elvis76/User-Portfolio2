@@ -6,7 +6,7 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0c0a09; --surface: #1c1917; --text: #fafaf9; --muted: #a8a29e;
-    --line: #292524; --accent: #357ae9; --accent-text: #0c0a09; --ok: #4ade80;
+    --line: #292524; --accent: #818cf8; --accent-text: #0c0a09; --ok: #4ade80;
     color-scheme: dark;
   }
 }

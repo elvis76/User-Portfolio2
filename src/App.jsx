@@ -7,10 +7,9 @@ import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import BackToTop from "./components/BackToTop.jsx";
 
+
 export default function App() {
-  const [theme, setTheme] = useState(() =>
-    window.matchMedia?.("(prefers-color-scheme: dark)").matches ? "dark" : "light"
-  );
+  const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
     const next = theme === "dark" ? "light" : "dark";

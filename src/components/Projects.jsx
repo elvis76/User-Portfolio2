@@ -18,7 +18,7 @@ export default function Projects() {
                   loading="lazy"
                   onError={(e) => (e.currentTarget.style.display = "none")}
                 />
-                <span className="label">{p.label}</span>
+                {p.label && <span className="label">{p.label}</span>}
               </div>
               <div className="body">
                 <h3>{p.title}</h3>
